@@ -1,0 +1,9 @@
+[project]
+name = "used-car-price-prediction"
+version = "0.1.0"
+description = "Used car prices with XGBoost"
+requires-python = ">=3.10"
+dependencies = ["pandas", "numpy", "scikit-learn", "xgboost", "matplotlib"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Notebooks / tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Data and trained models (download the dataset from Kaggle yourself)
+data/
+*.csv
+*.joblib
+*.pkl
